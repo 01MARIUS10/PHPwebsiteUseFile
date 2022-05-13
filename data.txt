@@ -1,0 +1,17 @@
+nom=aaz::prenom=ddee::age=21::sexe=masculin::email=q@gmail.com::mdp=AQS::cmdp=AQS::checkcondition=on::
+nom=RAMAGASON::prenom=Notahiana Erwan::age=21::sexe=masculin::email=notah@gmail.com::mdp=wailehaga::cmdp=wailehaga::checkcondition=on::
+nom=dada::prenom=neny::age=20::sexe=masculin::email=azerty@gmail.com::mdp=azerty::cmdp=azerty::checkcondition=on::
+nom=alpha::prenom=beta::age=119::sexe=masculin::email=a@gmail.com::mdp=a::cmdp=a::checkcondition=on::
+nom=RATSIMBA::prenom=ranto sarobidy::age=21::sexe=masculin::email=ranto@gmail.com::mdp=ranto::cmdp=ranto::checkcondition=on::
+nom=TENDRY::prenom=nirisoa::age=21::sexe=feminin::email=tendry@gmail.com::mdp=azerty::cmdp=azerty::checkcondition=on::
+nom=test::prenom=azer::age=17::sexe=masculin::email=rt@gmail.com::mdp=12345678::cmdp=12345678::checkcondition=on::
+nom=jhbi::prenom=jmo::age=17::sexe=masculin::email=mariustsiorimbola@gmail.com::mdp=aqw::cmdp=aqw::checkcondition=on::
+nom=a::prenom=a::age=20::sexe=masculin::email=mariustsiorimbola@gmail.com::mdp=a::cmdp=a::checkcondition=on::
+nom=s::prenom=s::age=29::sexe=masculin::email=n@gmail.com::mdp=n::cmdp=n::checkcondition=on::
+nom=x::prenom=x::age=21::sexe=masculin::email=x@gmail.com::mdp=x::cmdp=x::checkcondition=on::
+nom=q::prenom=q::age=20::sexe=masculin::email=q@gmail.com::mdp=q::cmdp=q::checkcondition=on::
+nom=p::prenom=p::age=21::sexe=masculin::email=p@gmail.com::mdp=p::cmdp=p::checkcondition=on::
+nom=g::prenom=g::age=21::sexe=masculin::email=m@gmail.com::mdp=m::cmdp=m::checkcondition=on::
+nom=m::prenom=m::age=21::sexe=masculin::email=m@gmail.com::mdp=m::cmdp=m::checkcondition=on::
+nom=i::prenom=i::age=23::sexe=masculin::email=i@gmail.com::mdp=i::cmdp=i::checkcondition=on::
+nom=l::prenom=l::age=21::sexe=masculin::email=l@gmail.com::mdp=l::cmdp=l::checkcondition=on::

@@ -1,0 +1,110 @@
+body{
+    padding:0;
+    margin:0;
+}
+.fullscreen{
+   background: url("../publicAsset/background.jpg"); 
+
+   background-repeat: no-repeat;
+    background-size: cover;
+   /* background: darkred; */
+   height:100vh;
+}
+h1{
+    text-align: center;
+}
+article > h1{
+    border:solid red 2px;
+}
+.formulaire , .link-index{
+    position:absolute;
+    bottom:50%;
+    right: 50%;
+    transform:translate(50%,50%);
+
+    border:solid black 2px;
+    background: rgba(0, 0, 0, 0.41);
+    
+}
+.formulaire{
+    min-width: 467px;
+}
+.link-index{
+    max-width: 400px;
+    min-width: 300px;
+}
+.bouton>a{
+    color: #c6ddf2;
+    background: #950606;
+}
+p{
+    text-align: center;
+}
+a{
+
+    text-decoration: none;
+    color:red;
+    background: gray;
+    border-radius: 8px;
+    padding: 10px 25px;
+    display: inline-block;
+    width: 150px;
+    font-size: 1.2rem;
+}
+
+button {
+    background: darkblue;
+    /* border-radius: 3px ; */
+    padding: 9px 55px;
+}
+legend{
+    color: #ec0b0b;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.code{
+    position:absolute;
+
+}
+img{
+    width:100%;
+}
+
+nav>ul{
+    text-decoration: unset;
+    display:grid;
+    grid-template-columns: 60px 60px 60px 60px 150px 50px;
+    grid-auto-columns: auto;
+}
+li{
+    margin:0 23px;
+}
+.error{
+    background: red;
+    margin:0;
+}
+.login-formulaire{
+    padding:0 25px;
+}
+.login-formulaire>label{
+    display: inline-block;
+    width:90px;
+}
+.login-formulaire>input{
+    display: inline-block;
+    width:300px;
+    height: 1.4rem;
+    margin-bottom: 10px;
+}
+.contenu-about>label{
+    display:inline-block;
+    width:70px;
+}
+.contenu-account>label{
+    display:inline-block;
+    width:216px;
+}
+button{
+    font-size:1.2rem;
+    font-weight: 500;
+}

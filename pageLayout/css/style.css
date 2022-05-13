@@ -1,0 +1,122 @@
+body{
+    margin:0;
+}
+nav , .nav-ul{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height:60px;
+}
+nav , footer{
+    /*background: rgba(4, 32, 117, 0.83);*/
+    background: rgba(1, 24, 96, 1);
+}
+.nav-ul{
+    list-style-type: none;
+}
+.nav-ul>li{
+    padding:0 2%;
+}
+.search{
+    padding-right: 25px;
+}
+a{
+    text-decoration: none; 
+    color:unset;
+    font-size: 1.05rem;
+}
+/*a:link {
+    color: #265301;
+}
+a:visited {
+  color: #437A16;
+}
+a:focus {
+  border-bottom: 1px solid;
+  background: #BAE498;
+}*/
+  
+li>a:hover{
+    color:whitesmoke;
+}
+.on{
+    color:whitesmoke;
+}
+
+.footer-container-row{
+    display: flex;
+}
+.footer-container-row-portion{
+    padding:0 10%;
+}
+h2{
+    margin:0 0 2px 0;
+    padding-left:10px;
+    color:rgb(216, 6, 6);
+    border: solid 2px ;
+    border-radius: 5px;
+}
+h6 ,h3, h2{
+    text-align: center;
+}
+section{
+    margin:20px 35px;
+}
+img{
+    width:300px;
+}
+.img{
+    display:grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 10px;
+    border:solid 2px darkblue;
+}
+.img:hover{
+    background:brown;
+}
+.footer-container-rowend{
+    border-top: solid 2px ;
+    border-top-style: dotted;
+    padding: 1px;
+    text-align: center;
+    font: caption;
+}
+.profil-head{
+    margin:22px auto;
+}
+.profil-head-round{
+   width: 92vw;
+    margin: auto;
+    background: url("../asset/antsanitia1.jpg");
+    background-repeat: round;
+}
+.round-image{
+    width: 40vw;
+    margin: auto;
+    border-radius: 50%;
+    border: solid rgba(1, 24, 96, 1);
+    overflow: hidden;
+}
+.round-image>img{
+    width: 40vw;
+}
+.profil-about{
+    border-top: double ;
+    border-bottom: double ;
+    padding: 20px 0;
+    margin:20px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+.profil-about>h2{
+    margin-bottom:15px;
+}
+.profil-about-element>span
+{
+    font-weight:bold;
+    font-size: 1.5rem;
+    margin: 4px 20px;
+    display: inline-block;
+    width: 170px;
+    color:rgba(1, 24, 96, 1);
+}
