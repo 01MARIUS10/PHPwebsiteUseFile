@@ -1,5 +1,5 @@
 <?php
-   // $_COOKIE=[];
+   //  $_COOKIE=[];
     setcookie("email","",time()-10);
     setcookie("mdp","",time()-10);
     unset($_COOKIE);
