@@ -1,11 +1,9 @@
 <?php
+//--------------------------------------------------------------------------
     $title="mon Site";
-   
-    
-        unset($_COOKIE);
-        setcookie("email","",time()-10);
-        setcookie("mdp","",time()-10);
-    
+    unset($_COOKIE);
+    setcookie("email","",time()-10);
+    setcookie("mdp","",time()-10);
     
 ?>
 <!DOCTYPE html>
@@ -34,3 +32,4 @@
     </div>
 
 </body>
+<!---------------------------------------------------------------------------- -->

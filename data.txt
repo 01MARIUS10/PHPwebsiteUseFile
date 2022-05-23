@@ -15,3 +15,4 @@ nom=g::prenom=g::age=21::sexe=masculin::email=m@gmail.com::mdp=m::cmdp=m::checkc
 nom=m::prenom=m::age=21::sexe=masculin::email=m@gmail.com::mdp=m::cmdp=m::checkcondition=on::
 nom=i::prenom=i::age=23::sexe=masculin::email=i@gmail.com::mdp=i::cmdp=i::checkcondition=on::
 nom=l::prenom=l::age=21::sexe=masculin::email=l@gmail.com::mdp=l::cmdp=l::checkcondition=on::
+nom=a::prenom=a::age=12::sexe=masculin::email=a@gmail.com::mdp=a::cmdp=a::checkcondition=on::

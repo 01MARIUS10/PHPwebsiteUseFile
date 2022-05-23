@@ -4,15 +4,16 @@
         require "./featuresPages/head.php";
         require "./featuresPages/nav.php";
 ?>
-    
+
+<div class="home ">
     <?php for($i=1;$i<15;$i++): ?>
         <section>
-            <pre><?php/* print_r($_COOKIE)*/?></pre>
-            <article>
-                <h2><?=$i?>) Lorem ipsum dolor sit amet.</h2>
-                <div class="img">
+            <article class="publication">
+                <h2 class="publication-title"><?=$i?>) Lorem ipsum dolor sit amet.</h2>
+                <div class="publication-about">
                     <img src="./contenuimage/<?=$i?>.jpg" alt="image">
-                    <div class="imh-apropos">
+
+                    <div class="publication-about-text">
                         <h3>Lorem ipsum dolor sit amet.</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                             Dolorem, quidem dolores numquam et asperiores corrupti 
@@ -22,6 +23,7 @@
             </article>
         </section>
     <?php endfor ?>
+</div> 
 
 <?php 
     require "./featuresPages/foot.php";

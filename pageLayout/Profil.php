@@ -4,10 +4,10 @@
         require "./featuresPages/head.php";
         require "./featuresPages/nav.php";
 ?>
-
+<div class="profil">
     <div class="profil-head">
         <div class="profil-head-round">
-            <p class="round-image"><img src="./asset/avatar.jpg" alt="profil"></p>
+            <p class="profil-picture"><img src="./asset/avatar.jpg" alt="profil"></p>
         </div>
     </div>
     <div class="profil-about">
@@ -20,6 +20,7 @@
         }
     ?>
     </div>
+</div>
 
 <?php 
     require "./featuresPages/foot.php";

@@ -10,10 +10,9 @@
 ?>
 
     <div class="fullscreen">
-        <?= print_r($_COOKIE)?>
         <div class="link-index">
             <div class="header">
-                   <h1>BIENVENU!</h1> 
+                   <h1>Allo!</h1> 
             </div>
             <div class="contenu">
                 <p class="bouton"><a href="./logIn.php">se connecter</a></p>
