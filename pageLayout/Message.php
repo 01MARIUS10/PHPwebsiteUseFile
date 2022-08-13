@@ -1,8 +1,8 @@
 <?php 
         $title="Message";
-        require_once "../function.php";
-        require "./featuresPages/head.php";
-        require "./featuresPages/nav.php";
+        require_once "../core/function.php";
+        require "./@shared/head.php";
+        require "./@shared/nav.php";
 ?>
 <div class="message containerPage ">
     <div class="message-head">
@@ -53,5 +53,5 @@
     </div>
 </div>
 <?php 
-    require "./featuresPages/foot.php";
+    require "./@shared/foot.php";
 ?>

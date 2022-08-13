@@ -1,11 +1,12 @@
 <?php 
         $title="Home";
-        require_once "../function.php";
-        require "./featuresPages/head.php";
-        require "./featuresPages/nav.php";
+        require_once "../core/function.php";
+        require "./@shared/head.php";
+        require "./@shared/nav.php";
 ?>
 
 <div class="home ">
+<?php print_r($_COOKIE);?>
     <?php for($i=1;$i<15;$i++): ?>
         <section>
             <article class="publication">
@@ -26,5 +27,5 @@
 </div> 
 
 <?php 
-    require "./featuresPages/foot.php";
+    require "./@shared/foot.php";
 ?>

@@ -2,7 +2,7 @@
     $title="s'inscrire";
     $errormdp="hidden";//masquer la message d'erreur du formulaire
     $accountExisting="hidden";
-    require_once "function.php";
+    require_once "../core/function.php";
 
     /*_________traitement du formulaire_______*/
     /********************************************pour le apres avoir rempli*/
@@ -22,8 +22,6 @@
             $title="erreur !";
         }
     }
-    require_once "./features/head.php" ;
-    require_once "./signInformulaire.php" ;
-    require_once "./features/foot.php";
+    require_once "../publicView/signin.php" ;
 ?>
     

@@ -1,26 +1,24 @@
 <?php
     $title="mon Site";
+
+    /**
+    *gerer l'action de deconnection  
+    *suppression de cookie en cas de deconnection
+    *puis de reafficher la page de depart;
+    */
     if(isset($_GET["action"])&& $_GET["action"]=="deconnection")
     {
+        echo"coucouuuu";
         unset($_COOKIE);
         setcookie("email","",time()-10);
         setcookie("mdp","",time()-10);
     }
-    require "./features/head.php";
+
+    /*
+    *Include la view de l'index(choix sur connection ou inscription)
+    */
+    require_once("./publicView/indexView.php");
 ?>
 
-    <div class="fullscreen">
-        <div class="link-index">
-            <div class="header">
-                   <h1>Allo!</h1> 
-            </div>
-            <div class="contenu">
-                <p class="bouton"><a href="./logIn.php">se connecter</a></p>
-                <p class="bouton"><a href="./signIn.php">   s'inscrire   </a></p>
-            </div>
-        </div>
-    </div>
 
-<?php 
-    require "./features/foot.php";
-?>
+
